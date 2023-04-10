@@ -8,5 +8,5 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - $HOME/core/docker/database/mysql/conf.d:/etc/mysql/conf.d
+      - $HOME/core/docker/database/mysql/d_mysql_db/conf.d:/etc/mysql/conf.d
       - $HOME/core/docker/database/mysql/mysql-data:/var/lib/mysql
