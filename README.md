@@ -2,9 +2,15 @@
 
 This repository contains my setup for dockerized databases. As a work in progress, I am continuously improving and refining the setup to ensure optimal performance, reliability, and security.
 
-## Databases
+## Available Database(s)
 
 - MySQL
+
+## Todo
+
+Create docker-compose.yaml for the following databases:
+
+- Neo4j
 - Redis
 - Postgres
 
