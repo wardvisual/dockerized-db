@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  d_mysql_db:
+    image: mysql/mysql-server:latest
+    container_name: d_mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: __password__
+    ports:
+      - "3307:3306"
+    volumes:
+      - $HOME/core/docker/database/mysql/conf.d:/etc/mysql/conf.d
+      - $HOME/core/docker/database/mysql/mysql-data:/var/lib/mysql
