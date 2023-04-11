@@ -1,1 +1,13 @@
- 
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:13.2-alpine
+    container_name: d_postgres_db
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=__user__
+      - POSTGRES_PASSWORD=__pass__
+    volumes:
+      - $HOME/core/docker/database/postgres/data:/var/lib/postgres
