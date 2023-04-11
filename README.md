@@ -5,6 +5,7 @@ This repository contains my setup for dockerized databases on a Linux environmen
 ## Available Database(s)
 
 - MySQL
+- Postgres
 
 ## Todo
 
@@ -12,7 +13,6 @@ Create docker-compose.yaml for the following databases:
 
 - Neo4j
 - Redis
-- Postgres
 
 ## Usage
 
