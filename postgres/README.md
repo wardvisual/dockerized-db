@@ -28,7 +28,7 @@ This is a containerized Postgres database.
    sudo docker exec -it [container_name] bash
    ```
 
-3. To login as posgress local account, use the following command:
+3. To login as posgres local account, use the following command:
 
    ```sh
    psql -h localhost -p 5432 -U postgres
