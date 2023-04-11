@@ -1,6 +1,6 @@
 # Postgres Docker Container
 
-This is a containerized Postgres database
+This is a containerized Postgres database.
 
 <!-- INSTALLATION -->
 
