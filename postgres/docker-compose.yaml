@@ -7,7 +7,7 @@ services:
     ports:
       - 5432:5432
     environment:
-      - POSTGRES_USER=__user__
+      - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=__pass__
     volumes:
       - $HOME/core/docker/database/postgres/data:/var/lib/postgres
