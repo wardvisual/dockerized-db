@@ -1,6 +1,6 @@
 # Dockerized Database
 
-This repository contains my setup for dockerized databases on a Linux environment. As a work in progress, I am continuously improving and refining the setup to ensure optimal performance, reliability, and security.
+This repository contains my setup for dockerized databases on a Linux environment. This is currently under improvement.
 
 ## Available Database(s)
 
