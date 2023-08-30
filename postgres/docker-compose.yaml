@@ -10,4 +10,4 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=__pass__
     volumes:
-      - $HOME/core/docker/database/postgres/data:/var/lib/postgres
+      - ${DATA_DIR}:/var/lib/postgres
